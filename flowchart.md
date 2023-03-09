@@ -17,7 +17,7 @@ flowchart TB
 	length"/]
 	node_025["i = 0"]
 	node_030{"i < length"}
-	node_040[/"in_array[i]"/]
+	node_040[/"Input:\nin_array[i]"/]
 	node_050["i++"]
 	node_060["flag = false\ni = 0"]
 	node_070{"i < length"}
