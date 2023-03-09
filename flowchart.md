@@ -12,27 +12,25 @@
 ```mermaid
 flowchart TB
 	node_000(("START"))
-	node_010["separator = #quot;\n#quot;
-	tmp = #quot;#quot;"]
+	node_010["separator = #quot;#92;n#quot;\ntmp = #quot;#quot;"]
 	node_020[/"Input:
 	length"/]
 	node_025["i = 0"]
 	node_030{"i < length"}
 	node_040[/"in_array[i]"/]
 	node_050["i++"]
-	node_060["flag = false
-	i = 0"]
+	node_060["flag = false\ni = 0"]
 	node_070{"i < length"}
 	node_080{"in_array[i].length < 4"}
 	node_090{"flag"}
 	node_100["tmp += separator"]
-	node_110["tmp += in_array[i]
-	flag = true"]
+	node_110["tmp += in_array[i]\nflag = true"]
 	node_120["i++"]
 	node_130["out_array = tmp.Split(separator)"]
 	node_140[/"Output:
 	out_array"/]
 	node_150(("END"))
+
 	node_000-->node_010
 	node_010-->node_020
 	node_020-->node_025
