@@ -8,11 +8,11 @@
 	["1234", "1567", "-2", "computer science"] -> ["-2"]
 	["Russia", "Denmark", "Kazan"] -> []
 
-**Блок-схема:**
+## Блок-схема
 ```mermaid
 flowchart TB
 	node_000(("START"))
-	node_010["separator = #quot;\t#quot;
+	node_010["separator = #quot;\n#quot;
 	tmp = #quot;#quot;"]
 	node_020[/"Input:
 	length"/]
@@ -53,3 +53,12 @@ flowchart TB
 	node_120-->node_070
 	node_130---->node_140
 	node_140-->node_150
+```
+
+## Описание
+
+Текстовое описание алгоритма доступно по [ссылке](README.md).
+
+## Исходный код C#
+
+Исходный код доступен по [ссылке](task/Program.cs).
